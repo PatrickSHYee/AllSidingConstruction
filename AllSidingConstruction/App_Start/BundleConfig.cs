@@ -23,6 +23,13 @@ namespace AllSidingConstruction
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      /** Animate styles **/
+                      "~/Content/animate.css",
+                      /** Icomoon Icon Fonts **/
+                      "~/Content/icomoon.css",
+                      /** Flexslider **/
+                      "~/Content/flexslider.css",
+                      "~/Content/style.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
